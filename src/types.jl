@@ -4,7 +4,7 @@ struct AbstractLandsatImage end
 #TODO: add older landsat types
 #struct Landsat5Image <: AbstractLandsatImage end
 
-struct Landsat7Image <: AbstractLandsatImage
+struct Landsat7ETMImage <: AbstractLandsatImage
     b1
     b2
     b3
@@ -18,7 +18,7 @@ struct Landsat7Image <: AbstractLandsatImage
     date
 end
 
-struct Landsat8Image <: AbstractLandsatImage
+struct Landsat8OLIImage <: AbstractLandsatImage
     b1
     b2
     b3
